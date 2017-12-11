@@ -1,0 +1,83 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #417fda;
+  border-radius: 0;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 500;
+  color: white;
+  border-bottom: 2px solid #7a7a7a;
+}
+
+#jumbotron-lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: white;
+}
+
+.jumbotron-btn {
+  background: #343a40;
+  color: white;
+}
+
+.jumbotron-btn:hover {
+  background: navy;
+  color: white;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.projects {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background: white;
+}
+
+.projects-head {
+  color: #666666;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.project-item {
+  background: #ecf0f1;
+  color: #727272;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid grey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.project-img {
+  padding: 2rem 0;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid grey;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
