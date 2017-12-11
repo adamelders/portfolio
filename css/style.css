@@ -68,8 +68,13 @@
   box-shadow: 3px 3px 3px grey;
 }
 
-.project-img {
+.project-img{
   padding: 2rem 0;
+}
+
+.project-img img {
+  width: 300px;
+  height: 200px;
 }
 
 footer {
