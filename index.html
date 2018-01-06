@@ -13,18 +13,29 @@
     <link rel="manifest" href="favicon/manifest.json">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
-
+    
     <title>Adam Elders</title>
-
+    
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112049050-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112049050-1');
+    </script>
+    
   </head>
-
+  
   <body>
-
+    
     <header>
       <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
@@ -55,7 +66,7 @@
         </div>
       </div>
     </header>
-
+    
     <main>
       
       <section class="jumbotron text-center">
@@ -82,18 +93,49 @@
             </div>
             
             <div class="item-wrapper">
-            
+              
               <h3>Sticky Notes</h3>
               <p>
                 A web application written in JavaScript using AngularJS to dynamically create and display 
-                sticky notes. My most recent web development project, and my first foray into the world of 
-                AngularJS. Of course, I still have more to learn, as I learned from a tutorial on an old version of AngularJS 
+                sticky notes. My first foray into the world of AngularJS. Of course, I still have more to learn, 
+                as I learned from a tutorial on an old version of AngularJS 
                 (1.12.x). I also still need to learn how to implement an API, so I can save notes between sessions.
               </p>
               <h4>&lt;web&gt;</h4>
               <a href="/examples/sticky-notes" target="_blank">Live site</a>
               <h4>&lt;code&gt;</h4>
               <a href="https://github.com/adamelders/sticky-notes" target="_blank">Github</a>
+              
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        <!-- JavaScript Calculator -->
+        <div class="row">
+          
+          <div class="col-12 project-item">
+            
+            <div class="float-right project-img">
+              <img src="img/calc.png" class="img-fluid" alt="Sticky Notes">
+            </div>
+            
+            <div class="item-wrapper">
+              
+              <h3>JavaScript Calculator</h3>
+              <p>
+                As I needed more practice with pure JavaScript, I created a simple calculator web app. 
+                The functionality and layout are based on the Windows 10 calculator app. 
+                While this was a good project for practicing JavaScript, it think was a little too simple,
+                in that I am creating this app just like any other - I'm not thinking outside of the box.
+                Still, it was good practice, and also taught me when and why not to use the eval() function,
+                and floating-point precision problems with a language that doesn't support a Decimal type.
+              </p>
+              <h4>&lt;web&gt;</h4>
+              <a href="/examples/calculator" target="_blank">Live site</a>
+              <h4>&lt;code&gt;</h4>
+              <a href="https://github.com/adamelders/web-examples/tree/master/javascript-calculator" target="_blank">Github</a>
               
             </div>
             
@@ -111,7 +153,7 @@
             </div>
             
             <div class="item-wrapper">
-            
+              
               <h3>TrinityCore Account Creator</h3>
               <p>
                 TrinityCore is an emulator for World of Warcraft. I like to develop projects for TrinityCore,
@@ -371,7 +413,7 @@
       </div>
       
     </footer>
-
+    
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
