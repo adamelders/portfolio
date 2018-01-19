@@ -99,7 +99,40 @@ footer p {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
+
+/* Re-size the height of the parallax on smaller screens */
+@media screen and (max-width: 1400px) {
+  .parallax {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .parallax {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parallax {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .parallax {
+    height: 300px;
+  }
+}
+
+/* Disable the parallax effect on mobile-sized screens */
+@media screen and (max-width: 460px) {
+  .parallax {
+    background-attachment: scroll;
+    height: 0px;
+  }
 }
 
 #sticky-notes-plx {
