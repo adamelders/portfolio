@@ -2,6 +2,10 @@
   margin-bottom: 0;
 }
 
+.collapse.show {
+  display: flex !important;
+}
+
 #logo {
   width: 40px;
   height: 40px;
@@ -52,9 +56,192 @@
 }
 
 .projects-head {
-  color: #666666;
-  margin: 0 auto;
+  color: #666;
+  text-decoration: underline;
+}
+
+.projects-subhead {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.project-item-card {
+  position: relative;
+  height: 200px;
+  min-width: 300px;
+  background-color: #ecf0f1;
+  color: #727272;
   padding: 1rem;
+  border: 1px solid grey;
+  overflow: hidden;
+}
+
+.project-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.project-caption-image {
+  position: absolute;
+  margin: 0;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #ecf0f1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s, -webkit-transform 0.4s;
+}
+
+.slide-up:hover .project-image {
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+.slide-up:hover .project-caption-image {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+  transition: opacity 0.1s, -webkit-transform 0.4s;
+  transition: transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+}
+
+#sticky-notes-image {
+  background-image: url(/img/sticky-notes-logo.png);
+}
+
+#sticky-notes-caption-image {
+  background-image: url(/img/angular.png);
+}
+
+#javascript-calculator-image {
+  background-image: url(/img/calc.png);
+}
+
+#javascript-calculator-caption-image {
+  background-image: url(/img/javascript.png);
+}
+
+#trinity-account-creator-image {
+  background-image: url(/img/trinity.png);
+}
+
+#trinity-account-creator-caption-image {
+  background-image: url(/img/javascript-php-mysql.png);
+}
+
+#pdf-merge-tool-image {
+  background-image: url(/img/pdf-merge-tool.png);
+}
+
+#pdf-merge-tool-caption-image {
+  background-image: url(/img/csharp-net.png);
+}
+
+#jquery-todo-list-image {
+  background-image: url(/img/todo.png);
+}
+
+#jquery-todo-list-caption-image {
+  background-image: url(/img/jquery.png);
+}
+
+#css-orbit-image {
+  background-image: url(/img/earth.png);
+}
+
+#css-orbit-caption-image {
+  background-image: url(/img/html-css.png);
+}
+
+#hourly-wage-image {
+  background-image: url(/img/hourly.png);
+}
+
+#hourly-wage-caption-image {
+  background-image: url(/img/java-android.png);
+}
+
+#web-examples-image {
+  background-image: url(/img/other-web.png);
+}
+
+#web-examples-caption-image {
+  background-image: url(/img/html-css-jquery.png);
+}
+
+#desktop-examples-image {
+  background-image: url(/img/other-desktop.png);
+}
+
+#desktop-examples-caption-image {
+  background-image: url(/img/csharp-net-java-android.png);
+}
+
+/* The smaller project cards don't look great on mobile or tablet sized devices. */
+/* So we'll disable them and revert back to showing each project on those screen sizes. */
+
+@media screen and (max-width: 1000px) {
+  .project-item-card {
+    display: none !important;
+  }
+  
+  #sticky-notes {
+    display: flex;
+  }
+  
+  #javascript-calculator {
+    display: flex;
+  }
+  
+  #trinity-account-creator {
+    display: flex;
+  }
+  
+  #pdf-merge-tool {
+    display: flex;
+  }
+  
+  #jquery-todo-list {
+    display: flex;
+  }
+  
+  #css-orbit-animation {
+    display: flex;
+  }
+  
+  #hourly-wage {
+    display: flex;
+  }
+  
+  #web-examples {
+    display: flex;
+  }
+  
+  #desktop-examples {
+    display: flex;
+  }
 }
 
 .project-item {

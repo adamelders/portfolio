@@ -72,9 +72,38 @@
       <div class="container projects">
         
         <h3 class="projects-head text-center">Recent Projects</h3>
+        <h5 class="projects-subhead text-center font-weight-light">Click on each project for more info</h5>
         
-        <!-- Sticky Notes -->
+        <!-- Project cards -->
         <div class="row">
+          
+          <!-- Sticky Notes -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleStickyNotes()">
+              <div class="project-image" id="sticky-notes-image"></div>
+              <div class="project-caption-image" id="sticky-notes-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- Javascript Calculator -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleJavascriptCalculator()">
+              <div class="project-image" id="javascript-calculator-image"></div>
+              <div class="project-caption-image" id="javascript-calculator-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- Trinity Account Creator -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleTrinityAccountCreator()">
+              <div class="project-image" id="trinity-account-creator-image"></div>
+              <div class="project-caption-image" id="trinity-account-creator-caption-image"></div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Sticky Notes info panel -->
+        <div class="row collapse" id="sticky-notes">
           
           <div class="col-12 project-item">
             
@@ -105,8 +134,8 @@
           
         </div>
         
-        <!-- JavaScript Calculator -->
-        <div class="row">
+        <!-- JavaScript Calculator info panel -->
+        <div class="row collapse" id="javascript-calculator">
           
           <div class="col-12 project-item">
             
@@ -136,8 +165,8 @@
           
         </div>
         
-        <!-- Trinity Account Creator -->
-        <div class="row">
+        <!-- Trinity Account Creator info panel -->
+        <div class="row collapse" id="trinity-account-creator">
           
           <div class="col-12 project-item">
             
@@ -175,8 +204,36 @@
           
         </div>
         
-        <!-- PDF Merge Tool -->
+        <!-- More project cards -->
         <div class="row">
+          
+          <!-- PDF Merge Tool -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="togglePdfMergeTool()">
+              <div class="project-image" id="pdf-merge-tool-image"></div>
+              <div class="project-caption-image" id="pdf-merge-tool-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- jQuery ToDo List -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="togglejQueryTodoList()">
+              <div class="project-image" id="jquery-todo-list-image"></div>
+              <div class="project-caption-image" id="jquery-todo-list-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- CSS Orbit Animation -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleCssOrbitAnimation()">
+              <div class="project-image" id="css-orbit-image"></div>
+              <div class="project-caption-image" id="css-orbit-caption-image"></div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- PDF Merge Tool info panel -->
+        <div class="row collapse" id="pdf-merge-tool">
           
           <div class="col-12 project-item">
             
@@ -209,38 +266,8 @@
           
         </div>
         
-        <!-- jQuery Car Racr -->
-        <div class="row">
-          
-          <div class="col-12 project-item">
-            
-            <div class="float-right project-img">
-              <img src="img/car-racr.png" class="img-fluid" alt="jQuery Car Racr">
-            </div>
-            
-            <div class="item-wrapper">
-              
-              <h3>jQuery Car Racr</h3>
-              <p>
-                An example web application that uses jQuery to make two cars race at random speed intervals 
-                with time and results display. This was developed as part of the final project in an online course. 
-                The assets were created by the instructor, and I had to implement the markup and functionality. 
-                jQuery was the chosen framework for this project.
-              </p>
-
-              <h4>&lt;web&gt;</h4>
-              <a href="/examples/jQuery/racr/car.html" target="_blank">Live site</a>
-              <h4>&lt;code&gt;</h4>
-              <a href="https://github.com/adamelders/web-examples/tree/master/jquery-car-racr" target="_blank">Github</a>
-              
-            </div>
-            
-          </div>
-          
-        </div>
-        
-        <!-- jQuery ToDo List -->
-        <div class="row">
+        <!-- jQuery ToDo List info panel-->
+        <div class="row collapse" id="jquery-todo-list">
           
           <div class="col-12 project-item">
             
@@ -268,8 +295,8 @@
           
         </div>
         
-        <!-- CSS Orbit Animation -->
-        <div class="row">
+        <!-- CSS Orbit Animation info panel -->
+        <div class="row collapse" id="css-orbit-animation">
           
           <div class="col-12 project-item">
             
@@ -297,8 +324,36 @@
           
         </div>
         
-        <!-- Hourly Wage Time Calculator -->
+        <!-- Even more project cards -->
         <div class="row">
+          
+          <!-- Hourly Wage Time Calculator -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleHourlyWageTimeCalculator()">
+              <div class="project-image" id="hourly-wage-image"></div>
+              <div class="project-caption-image" id="hourly-wage-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- Other Web Examples -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleOtherWebExamples()">
+              <div class="project-image" id="web-examples-image"></div>
+              <div class="project-caption-image" id="web-examples-caption-image"></div>
+            </a>
+          </div>
+          
+          <!-- Other Desktop Examples -->
+          <div class="col-4 project-item-card slide-up">
+            <a onclick="toggleOtherDesktopExamples()">
+              <div class="project-image" id="desktop-examples-image"></div>
+              <div class="project-caption-image" id="desktop-examples-caption-image"></div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Hourly Wage Time Calculator info panel -->
+        <div class="row collapse" id="hourly-wage">
           
           <div class="col-12 project-item">
             
@@ -325,8 +380,8 @@
           
         </div>
         
-        <!-- Other Web Examples-->
-        <div class="row">
+        <!-- Other Web Examples info panel -->
+        <div class="row collapse" id="web-examples">
           
           <div class="col-12 project-item">
             
@@ -341,9 +396,12 @@
 
               <h4>&lt;web&gt;</h4>
               <a href="/examples/mnml" target="_blank">MNML - Live site</a>
+              <br>
+              <a href="/examples/jQuery/racr/car.html" target="_blank">jQuery Car Racr - Live site</a>
               <h4>&lt;code&gt;</h4>
               <a href="https://github.com/adamelders/web-examples/tree/master/mnml-website" target="_blank">MNML Website - Github</a>
-
+              <br>
+              <a href="https://github.com/adamelders/web-examples/tree/master/jquery-car-racr" target="_blank">jQuery Car Racr - Github</a>
               <br><br>
               <p>More will be added later!</p>
               
@@ -353,8 +411,8 @@
           
         </div>
         
-        <!-- Other Desktop Examples-->
-        <div class="row">
+        <!-- Other Desktop Examples info panel -->
+        <div class="row collapse" id="desktop-examples">
           
           <div class="col-12 project-item">
             
@@ -416,5 +474,8 @@
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
