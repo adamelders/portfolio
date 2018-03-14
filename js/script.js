@@ -1,7 +1,7 @@
 /* These functions toggle the display of the project info cards. */
 
 function toggleStickyNotes() {
-  
+
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
@@ -9,7 +9,7 @@ function toggleStickyNotes() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#javascript-calculator').collapse('hide');
   $('#trinity-account-creator').collapse('hide');
@@ -17,7 +17,7 @@ function toggleStickyNotes() {
 }
 
 function toggleJavascriptCalculator() {
-  
+
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
@@ -25,7 +25,7 @@ function toggleJavascriptCalculator() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#sticky-notes').collapse('hide');
   $('#trinity-account-creator').collapse('hide');
@@ -33,7 +33,7 @@ function toggleJavascriptCalculator() {
 }
 
 function toggleTrinityAccountCreator() {
-  
+
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
@@ -41,7 +41,7 @@ function toggleTrinityAccountCreator() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#sticky-notes').collapse('hide');
   $('#javascript-calculator').collapse('hide');
@@ -51,7 +51,7 @@ function toggleTrinityAccountCreator() {
 /* -------------------------------------------------------- */
 
 function togglePdfMergeTool() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#trinity-account-creator').collapse('hide');
@@ -59,7 +59,7 @@ function togglePdfMergeTool() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
@@ -67,7 +67,7 @@ function togglePdfMergeTool() {
 }
 
 function togglejQueryTodoList() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#trinity-account-creator').collapse('hide');
@@ -75,7 +75,7 @@ function togglejQueryTodoList() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#pdf-merge-tool').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
@@ -83,7 +83,7 @@ function togglejQueryTodoList() {
 }
 
 function toggleCssOrbitAnimation() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#trinity-account-creator').collapse('hide');
@@ -91,7 +91,7 @@ function toggleCssOrbitAnimation() {
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
   $('#hourly-wage').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
@@ -101,7 +101,7 @@ function toggleCssOrbitAnimation() {
 /* -------------------------------------------------------- */
 
 function toggleHourlyWageTimeCalculator() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#javascript-calculator').collapse('hide');
@@ -109,7 +109,7 @@ function toggleHourlyWageTimeCalculator() {
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
@@ -117,7 +117,7 @@ function toggleHourlyWageTimeCalculator() {
 }
 
 function toggleOtherWebExamples() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#javascript-calculator').collapse('hide');
@@ -125,7 +125,7 @@ function toggleOtherWebExamples() {
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#hourly-wage').collapse('hide');
   $('#desktop-examples').collapse('hide');
@@ -133,7 +133,7 @@ function toggleOtherWebExamples() {
 }
 
 function toggleOtherDesktopExamples() {
-  
+
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
   $('#javascript-calculator').collapse('hide');
@@ -141,7 +141,7 @@ function toggleOtherDesktopExamples() {
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
   $('#css-orbit-animation').collapse('hide');
-  
+
   /* Show the current info panel */
   $('#hourly-wage').collapse('hide');
   $('#web-examples').collapse('hide');

@@ -200,45 +200,46 @@
 }
 
 /* The smaller project cards don't look great on mobile or tablet sized devices. */
+
 /* So we'll disable them and revert back to showing each project on those screen sizes. */
 
 @media screen and (max-width: 1000px) {
   .project-item-card {
     display: none !important;
   }
-  
+
   #sticky-notes {
     display: flex;
   }
-  
+
   #javascript-calculator {
     display: flex;
   }
-  
+
   #trinity-account-creator {
     display: flex;
   }
-  
+
   #pdf-merge-tool {
     display: flex;
   }
-  
+
   #jquery-todo-list {
     display: flex;
   }
-  
+
   #css-orbit-animation {
     display: flex;
   }
-  
+
   #hourly-wage {
     display: flex;
   }
-  
+
   #web-examples {
     display: flex;
   }
-  
+
   #desktop-examples {
     display: flex;
   }
@@ -261,7 +262,7 @@
   display: inline;
 }
 
-.project-img{
+.project-img {
   display: inline-block;
   overflow: auto;
   padding: 2rem;
