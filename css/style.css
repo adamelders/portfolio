@@ -167,12 +167,12 @@
   background-image: url(/img/jquery.png);
 }
 
-#css-orbit-image {
-  background-image: url(/img/earth.png);
+#unity-projects-image {
+  background-image: url(/img/unity.png);
 }
 
-#css-orbit-caption-image {
-  background-image: url(/img/html-css.png);
+#unity-projects-caption-image {
+  background-image: url(/img/unity-csharp.png);
 }
 
 #hourly-wage-image {
@@ -228,7 +228,7 @@
     display: flex;
   }
 
-  #css-orbit-animation {
+  #unity-projects {
     display: flex;
   }
 

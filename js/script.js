@@ -4,7 +4,7 @@ function toggleStickyNotes() {
 
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
@@ -20,7 +20,7 @@ function toggleJavascriptCalculator() {
 
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
@@ -36,7 +36,7 @@ function toggleTrinityAccountCreator() {
 
   /* Hide other project info panels on other rows */
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#web-examples').collapse('hide');
   $('#desktop-examples').collapse('hide');
@@ -62,7 +62,7 @@ function togglePdfMergeTool() {
 
   /* Show the current info panel */
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
   $('#pdf-merge-tool').collapse('toggle');
 }
 
@@ -78,11 +78,11 @@ function togglejQueryTodoList() {
 
   /* Show the current info panel */
   $('#pdf-merge-tool').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
   $('#jquery-todo-list').collapse('toggle');
 }
 
-function toggleCssOrbitAnimation() {
+function toggleUnityProjectInformation() {
 
   /* Hide other project info panels on other rows */
   $('#sticky-notes').collapse('hide');
@@ -95,7 +95,7 @@ function toggleCssOrbitAnimation() {
   /* Show the current info panel */
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('toggle');
+  $('#unity-projects').collapse('toggle');
 }
 
 /* -------------------------------------------------------- */
@@ -108,7 +108,7 @@ function toggleHourlyWageTimeCalculator() {
   $('#trinity-account-creator').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
 
   /* Show the current info panel */
   $('#web-examples').collapse('hide');
@@ -124,7 +124,7 @@ function toggleOtherWebExamples() {
   $('#trinity-account-creator').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
 
   /* Show the current info panel */
   $('#hourly-wage').collapse('hide');
@@ -140,7 +140,7 @@ function toggleOtherDesktopExamples() {
   $('#trinity-account-creator').collapse('hide');
   $('#pdf-merge-tool').collapse('hide');
   $('#jquery-todo-list').collapse('hide');
-  $('#css-orbit-animation').collapse('hide');
+  $('#unity-projects').collapse('hide');
 
   /* Show the current info panel */
   $('#hourly-wage').collapse('hide');
